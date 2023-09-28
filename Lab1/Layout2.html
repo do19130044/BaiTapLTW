@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap layout2</title>
+    <style>
+        body{
+
+            margin: 0;
+            padding: 0;
+            font-family: Tahoma;
+        }
+        h2{
+            margin: 0;
+            padding: 0;
+
+
+        }
+        p{
+            margin: 0;
+            padding: 0;
+
+        }
+        #container{
+            background: aquamarine;
+            border: 1px solid #000;
+            width: 1200px;
+            margin: auto;
+
+        }
+        #container header{
+            background: cornflowerblue;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container nav{
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: beige;
+
+        }
+        #container #content{
+            background: aliceblue;
+            min-height: 300px;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        #container #content #left-content{
+            width: 25%;
+            height: 300px;
+            float: left;
+            clear: right;
+            background: burlywood;
+            border-right: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #container #content #right-content{
+            width: 75%;
+            height: 300px;
+            float: right;
+            clear: none;
+            background: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #container footer{
+            height: 100px;
+            background: aqua;
+            position: relative;
+
+        }
+        #container footer h2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%) ;
+
+        }
+        .border-bottom{
+            border-bottom: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h2>Header Section</h2>
+        </header>
+        <div class="border-bottom"></div>
+        <nav>
+            <h2>Navigation Bar</h2>
+        </nav>
+        <div class="border-bottom"></div>
+        <section id="content">
+            <div id="left-content">
+                <h2>Index</h2>
+            </div>
+            <div id="right-content">
+                <h2>Content section</h2>
+            </div>
+        </section>
+        <div class="border-bottom"></div>
+        <footer>
+            <h2>Footer section</h2>
+        </footer>
+    </div>
+
+</body>
+</html>

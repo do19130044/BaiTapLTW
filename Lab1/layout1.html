@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập Layout1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family:Tahoma;
+        }
+        table{
+            margin: auto;
+            width: 1200px;
+        }
+        #header {
+            height: 50px;
+            background-color: #ccc;
+        }
+        #menu {
+            height: 200px;
+        }
+        #left {
+            background-color: #f0f0095e;
+        }
+        #nav {
+            list-style-type: none;
+        }
+        #main-menu {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        #footer {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1" width="100%">
+    <tr valign="top">
+        <td id="header" colspan="2">
+            <h2>PROCESS LAYOUT EXAMPLE</h2>
+        </td>
+    </tr>
+    <tr valign="top" id="menu">
+        <td id="left">
+            <ul id="nav">
+                <li id="main-menu">Main menu</li>
+                <li>Link one</li>
+                <li>Link two</li>
+                <li>Link three</li>
+                <li>Link four</li>
+            </ul>
+        </td>
+        <td>This is an example layout using the tables</td>
+    </tr>
+    <tr id="footer">
+        <td colspan="2" style="text-align: center;">
+            www.Example of layout using tables.com
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
