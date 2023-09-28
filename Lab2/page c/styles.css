@@ -1,0 +1,251 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0; padding: 0;
+    width: 100%;
+}
+P{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #cccccc;
+}
+/*-----------------*/
+#page{
+width: 100%;
+}
+#page .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*-------------------*/
+#page #section_header_2_dark{
+    height: 100px;
+    background: #333333;
+}
+#page #section_header_2_dark .navbar-header{
+    float: left;
+    width: 30%;
+    padding-top: 25px;
+}
+
+
+#page #section_header_2_dark .navbar-header .pix_nav_logo{
+    width: 165px;
+
+}
+#page #section_header_2_dark .collapse.navbar-collapse{
+    float: right;
+    width: 70%;
+}
+#page #section_header_2_dark .collapse.navbar-collapse ul{
+    padding-top: 20px;
+
+}
+#page #section_header_2_dark .collapse.navbar-collapse ul li{
+    list-style-type: none;
+    color: #cccccc;
+    float: right;
+    clear: left;
+    padding-left: 30px;
+    font-size: 100%;
+}
+#page #section_header_2_dark .collapse.navbar-collapse ul li a{
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: bolder;
+}
+#page #section_header_2_dark .collapse.navbar-collapse ul li .phone{
+    color: orange;
+}
+/*---------------------*/
+ .bgvid{
+     width: 100%;
+ }
+.sixteen.columns{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.sixteen.columns.context_style {
+    width: 100%;
+    position: absolute;
+    top: 428px;
+    left: 0px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+.sixteen.columns.context_style h1.pix_text{
+    font-size: 50px;
+}
+.sixteen.columns.context_style h2.pix_text{
+    width: 670px;
+    font-size: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: 312px;
+}
+.sixteen.columns.context_style h3.pix_text{
+    font-size: 16px;
+}
+form#contact_form {
+    width: 427px;
+    padding: 12px;
+    background-color: black;
+    background-blend-mode: overlay;
+    margin-left: 451px;
+    height: auto;
+}
+input#email {
+    width: 267px;
+    height: 35px;
+}
+
+element.style {
+}
+button#subscribe_btn_1 {
+    background: #F1C232;
+    color: white;
+    height: 41px;
+    width: 130px;
+}
+/*hidden1*/
+div#hidden_pix_1 {
+    display: none;
+}
+/*hidden*/
+div#hidden_pix_6 {
+    display: none;
+}
+/*---------------*/
+div#section_university_5 {
+    margin: 37px;
+}
+.join_us_section.pix_builder_bg {
+    overflow: auto;
+}
+.join_us_section.pix_builder_bg  .container {
+    width: 90%;
+    margin-left: 93px;
+    margin-right: 12px;
+    height: auto;
+    overflow: auto;
+}
+.sixteen.columns {
+    /*width: 100%;*/
+    height: auto;
+    float: left;
+}
+.ten.columns.alpha {
+    width: 60%;
+    height: auto;
+    float: left;
+}
+.zone_left {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.psingle_item {
+    float: left;
+    width: 100%;
+}
+.icon_st {
+    width: 25%;
+    float: left;
+    margin-left: 87px;
+}
+.text_st {
+    width: 62%;
+    float: right;
+}
+p.title_st.editContent {
+    font-size: 23px;
+}
+.six.columns.omega {
+    width: 40%;
+    height: 382px;
+    float: left;
+}
+.six.columns.omega .substyle.pix_builder_bg {
+    width: 76%;
+    height: 100%;
+    float: left;
+    background-color: #EBEAEA;
+}
+form#contact_form2 {
+    margin: 0px 13px;
+    width: 90%;
+}
+form#contact_form2 input#name {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+form#contact_form2 input#email2 {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+form#contact_form2 input#number{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+form#contact_form2 .select_st select#countries {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+form#contact_form2 span.send_btn button#submit_btn_6 {
+    width: 100%;
+    height: 35px;
+    background-color: #7CC576;
+}
+form#contact_form2 span.send_btn button#submit_btn_6 span.editContent {
+    color: whitesmoke;
+}
+.title-style {
+    margin-left: 23px;
+    margin-top: 14px;
+    font-size: 25px;
+}
+.text-style {
+    margin: 0px 22px 0px;
+}
+
+/*--------------------*/
+#page #section_ecourse_7{
+    height: 100px;
+    background: #cccccc;
+
+
+}
+#page #section_ecourse_7 .container1{
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    text-align: center;
+
+
+}
+#page #section_ecourse_7 .socbuttons{
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+#page #section_ecourse_7 .socbuttons ul li{
+    list-style-type: none;
+    color: #cccccc;
+    float: right;
+    clear: left;
+    padding-left: 30px;
+    font-size: 150%;
+
+}
+
