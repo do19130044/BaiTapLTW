@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button, input {
+    border: none;
+    outline: none;
+}
+button {
+    cursor: pointer;
+}
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.login-main {
+    width: 520px;
+    height: 650px;
+    background-color: #ddd;
+    margin: 325px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login {
+    width: 500px;
+    height: 630px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.login-form {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.total {
+    border: 1px solid rgb(202, 202, 202);
+    background-color: rgb(243, 243, 243);
+    border-radius: 3px;
+}
+/* ===account=== */
+.login p {
+    color: rgb(0, 206, 0);
+    font-weight: bold;
+    padding-top: 30px;
+}
+.input-icons i {
+    position: absolute;
+}
+.input-icons {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+}
+.input-icons hr {
+    margin-left: 49px;
+    color: grey;
+    margin-top: 5px;
+}
+.input-icons::placeholder {
+    margin-left: 80px;
+}
+.icon {
+    padding: 10px;
+    color: grey;
+    min-width: 50px;
+    text-align: center;
+    height: 40px;
+}
+
+.input-field {
+    width: 427px;
+    margin-left: 20px;
+    border: none;
+}
+/* ===information=== */
+.infor {
+    width: 400px;
+    display: flex;
+    margin-left: 50px;
+}
+.infor .left {
+    margin-left: -50px;
+    width: 200px;
+}
+.infor p {
+    margin-bottom: 11px;
+}
+.left input::placeholder {
+    padding-left: 10px;
+}
+.left .left-ipt {
+    margin-right: 10px;
+    width: 54px;
+    height: 40px;
+}
+.infor .right {
+    width: 200px;
+}
+.right input::placeholder {
+    text-align: center;
+}
+.right .right-ipt {
+    width: 98px;
+    height: 40px;
+}
+/* ===payment=== */
+.payment .card {
+    display: flex;
+    width: 400px;
+    height: 40px;
+}
+.payment i {
+    color: grey;
+}
+.payment p {
+    margin-bottom: 11px;
+}
+.card button {
+    width: 200px;
+}
+.card button:hover {
+    color: white;
+    background: rgb(0, 206, 0);
+}
+/* ===card number=== */
+.card-number .input-icons i {
+    margin: 10px 16px 10px 16px;
+}
+/* ===card day=== */
+.card-day {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.card-day input {
+    width: 120px;
+    /* margin: 10px 10px 50px 0; */
+}
+.card-day .selectt {
+    margin-top: 10px;
+    width: 195px;
+    height: 40px;
+    display: block;
+}
+
+.selectt select {
+    width: 95.7px;
+    height: 100%;
+    float: left;
+    clear: right;
+}
+.card-day .input-iconss i {
+    margin: 10px 16px 10px 16px;
+}
+.input-iconss i {
+    position: absolute;
+}
+.input-iconss {
+    width: 195px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+}
+.input-iconss hr {
+    margin-left: 49px;
+    color: grey;
+    margin-top: 5px;
+}
+.input-iconss::placeholder {
+    margin-left: 80px;
+}
+/* ===checkbox-accept=== */
+.checkbox-accept > input {
+    margin-right: 7px;
+}
