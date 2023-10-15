@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Bai 5</title>
+    <style>
+        img {
+            width: 200px;
+            margin: 200px auto;
+            transition: all 0.9s ease;
+        }
+
+        body {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<img src="pic1.jpg" id="image" alt="">
+
+<script>
+    $(document).ready(function () {
+        let corner = 15;
+        let img = $("#image");
+        setInterval(function () {
+            rotate(img);
+        }, 2000);
+
+        function rotate(image) {
+            image.css("transform", "rotate(" + corner + "deg)");
+            corner = corner + 15;
+        }
+    })
+
+</script>
+
+</body>
+</html>
